@@ -26,17 +26,17 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  The -g flag lists Ransomware to exploit based on the selected Ransomware group.
  It will output a 32 or 64-bit DLL appropriately named based on the family selected.
 
-[Strategy]  <br>  
+[Strategy]  <br> 
  The created DLL exploit file logic is simple, we check if the current directory
  is C:\Windows\System32. If not we grab our own process ID (PID) and terminate
  ourselves and the Malware pre-encryption as we now control code execution flow.
 
-[Event Log IOC] <br>  
+[Event Log IOC] <br> 
  The -e flag sets up a custom Windows Event source in the Windows registry.
  Events are written to 'Windows Logs\Application' as 'RansomLord' event ID 1
  Malware name and full process path are also included in the general information.
 
-[DLL Map] <br>    
+[DLL Map] <br>  
  The -m flag displays Ransomware groups, DLL required and architecture x32 or 64-bit.
 
 [Trophy Room] <br>  
