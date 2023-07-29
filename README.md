@@ -9,9 +9,8 @@ SHA256: b0dfa2377d7100949de276660118bbf21fa4e56a4a196db15f5fb344a5da33ee
 Video PoC: <br >
 https://www.youtube.com/watch?v=rcCBJkUFIfw
 
-RansomLord is a proof-of-concept anti Ransomware exploit tool that generates PE files.
-Files are saved to disk in the x32 or x64 directorys where the program is run from.
- Goal is to exploit code execution flaws inherent in certain strains of Ransomware
+RansomLord generates PE files. Files are saved to disk in the x32 or x64 directorys where the program is run from.
+Goal is to exploit code execution flaws inherent in certain strains of Ransomware
 
 [Malvuln history]
  In May 2022, I publicly disclosed a novel strategy to successfully defeat Ransomware.
