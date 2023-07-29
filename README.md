@@ -47,10 +47,10 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  Many factors can ruin success: different variants, OS versions, Malware location etc.
  Therefore, proceed with caution as mileage may vary, good luck.
 
-[Test Environment] <br>  
+[Test Environment] <br>
  Testing was done in a Windows 10 Virtual Machine and Win-7 embedded OS Thin-client.
 
-[About] <br>  
+[About] <br>
  The -a flag general information, contact and disclaimer.
  Using this program and or its DLL files, you accept all risk and the full disclaimer.
  By John Page (aka Malvuln) Copyright (c) 2023
