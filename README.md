@@ -55,3 +55,4 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  Using this program and or its DLL files, you accept all risk and the full disclaimer.
  By John Page (aka Malvuln) Copyright (c) 2023
 
+![ransomlord2](https://github.com/malvuln/RansomLord/assets/75002643/762d63f9-9d22-4c05-984d-75b5a93df561)
