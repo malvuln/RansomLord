@@ -36,13 +36,13 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  Events are written to 'Windows Logs\Application' as 'RansomLord' event ID 1
  Malware name and full process path are also included in the general information.
 
-[DLL Map] <br>  
+[DLL Map] <br>
  The -m flag displays Ransomware groups, DLL required and architecture x32 or 64-bit.
 
-[Trophy Room] <br>  
+[Trophy Room] <br>
  The -t flag lists old Ransomware advisorys from 2022 with Malware vulnerability id.
 
-[Warning] <br>  
+[Warning] <br>
  The Ransomware familys and or samples listed do NOT guarantee a successful outcome.
  Many factors can ruin success: different variants, OS versions, Malware location etc.
  Therefore, proceed with caution as mileage may vary, good luck.
