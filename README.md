@@ -7,7 +7,7 @@ Lang: C
 SHA256: b0dfa2377d7100949de276660118bbf21fa4e56a4a196db15f5fb344a5da33ee
 
 Video PoC: <br >
-https://www.youtube.com/watch?v=rcCBJkUFIfw
+https://www.youtube.com/watch?v=_Ho0bpeJWqI
 
 RansomLord generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br>
 
