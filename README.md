@@ -22,7 +22,7 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  RansomLord v1 intercepts and terminates malware tested from 33 different threat groups.
  Clop, Play, Royal, BlackCat (alphv), Yanluowang, DarkSide, Nokoyawa etc...
 
-[Generating exploits] <br>  
+[Generating exploits] <br>
  The -g flag lists Ransomware to exploit based on the selected Ransomware group.
  It will output a 32 or 64-bit DLL appropriately named based on the family selected.
 
