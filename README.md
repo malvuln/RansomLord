@@ -54,8 +54,8 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  The -a flag general information, contact and disclaimer.
  Using this program and or its DLL files, you accept all risk and the full disclaimer.
  By John Page (aka Malvuln) Copyright (c) 2023
+ 
+![ransomlord2](https://github.com/malvuln/RansomLord/assets/75002643/f82c790d-f540-455c-ac64-d91d3bb93919)
 
-![ransomlord2](https://github.com/malvuln/RansomLord/assets/75002643/762d63f9-9d22-4c05-984d-75b5a93df561)
-
-![ransomlord](https://github.com/malvuln/RansomLord/assets/75002643/3a308eca-2a0a-48fd-8e2e-8c6e73ad0f28)
+![ransomlord](https://github.com/malvuln/RansomLord/assets/75002643/4d9ebabd-3bd0-454d-b9bf-00d075fe0ad9)
 
