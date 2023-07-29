@@ -14,7 +14,9 @@ RansomLord generated PE files are saved to disk in the x32 or x64 directorys whe
 
 Goal is to exploit code execution flaws inherent in certain strains of Ransomware
 
-[Malvuln history]
+[Malvuln history] <br>
+
+
  In May 2022, I publicly disclosed a novel strategy to successfully defeat Ransomware.
  Using a well known attacker technique (DLL hijack) to terminate malware pre-encryption.
  The first malware to be successfully exploited was from the group Lockbit MVID-2022-0572.
@@ -22,7 +24,8 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
  RansomLord v1 intercepts and terminates malware tested from 33 different threat groups.
  Clop, Play, Royal, BlackCat (alphv), Yanluowang, DarkSide, Nokoyawa etc...
 
-[Generating exploits]
+[Generating exploits] <br>  
+
  The -g flag lists Ransomware to exploit based on the selected Ransomware group.
  It will output a 32 or 64-bit DLL appropriately named based on the family selected.
 
