@@ -57,8 +57,5 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
 
 ![ransomlord2](https://github.com/malvuln/RansomLord/assets/75002643/762d63f9-9d22-4c05-984d-75b5a93df561)
 
-
-![ransomlord3](https://github.com/malvuln/RansomLord/assets/75002643/4768f776-5e59-4bbd-8bfc-fbf88fbd7a7b)
-
 ![ransomlord](https://github.com/malvuln/RansomLord/assets/75002643/3a308eca-2a0a-48fd-8e2e-8c6e73ad0f28)
 
