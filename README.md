@@ -1,4 +1,4 @@
-# RansomLord v1 anti-Ransomware exploit tool.
+# RansomLord Anti-Ransomware exploit tool.
 RansomLord is a proof-of-concept tool that automates the creation of PE files, used to compromise Ransomware pre-encryption. <br>
 
 Lang: C
