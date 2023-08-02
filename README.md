@@ -10,43 +10,7 @@ https://www.youtube.com/watch?v=_Ho0bpeJWqI
 
 RansomLord generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br>
 
-
 Goal is to exploit code execution flaws inherent in certain strains of Ransomware. <br>  
-
-[Victim List] <br>
-[0] Lockbit <br>
-[1] Yanluowang <br>
-[2] Conti <br>
-[3] REvil <br> 
-[4] BlackMatter <br>
-[5] WannaCry <br> 
-[6] LokiLocker <br> 
-[7] Ryuk.A <br> 
-[8] Hive v5.1 <br> 
-[9] BlueSky <br> 
-[10] Haron <br> 
-[11] Thanos <br> 
-[12] AvosLocker <br> 
-[13] AtomSilo <br> 
-[14] Cryakl <br> 
-[15] Meow <br> 
-[16] BabukLocker <br> 
-[17] Darkside <br> 
-[18] CTBLocker <br> 
-[19] Cerber <br> 
-[20] Cryptowall <br> 
-[21] Alphaware <br> 
-[22] Clop <br> 
-[23] Play <br> 
-[24] Nokoyawa <br> 
-[25] BlackCat(ALPHV) <br> 
-[26] Royal <br> 
-[27] Chaos <br> 
-[28] Crytox <br> 
-[29] LockerGoga <br> 
-[30] Rook <br> 
-[31] HelloKitty <br> 
-[32] Curator <br> 
 
 [Malvuln history] <br>
  In May 2022, I publicly disclosed a novel strategy to successfully defeat Ransomware.
