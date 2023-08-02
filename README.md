@@ -15,7 +15,7 @@ Goal is to exploit code execution flaws inherent in certain strains of Ransomwar
 
 [Victim List]
 [0] Lockbit <br>
-[1] Yanluowang <br>  
+[1] Yanluowang <br>
 [2] Conti <br>
 [3] REvil <br> 
 [4] BlackMatter <br>
