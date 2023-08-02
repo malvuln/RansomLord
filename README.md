@@ -13,7 +13,7 @@ RansomLord generated PE files are saved to disk in the x32 or x64 directorys whe
 
 Goal is to exploit code execution flaws inherent in certain strains of Ransomware. <br>  
 
-[Victim List]
+[Victim List] <br>
 [0] Lockbit <br>
 [1] Yanluowang <br>
 [2] Conti <br>
