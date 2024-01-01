@@ -1,5 +1,5 @@
 # RansomLord Anti-Ransomware exploit tool.
-RansomLord is a proof-of-concept tool that automates the creation of PE files, used to exploit Ransomware pre-encryption. <br>
+Proof-of-concept tool that automates the creation of PE files, used to exploit Ransomware pre-encryption. <br>
 
 Lang: C
 
