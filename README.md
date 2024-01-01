@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=_Ho0bpeJWqI
 
 RansomLord generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br>
 
-Goal is to exploit code execution flaws inherent in certain strains of Ransomware by deploying exploits to defend the network!<br>  
+Goal is to exploit vulnerabilities inherent in certain strains of Ransomware by deploying exploits that defend the network!<br>  
 
 [Malvuln history] <br>
  In May 2022, I publicly disclosed a novel strategy to successfully defeat Ransomware.
