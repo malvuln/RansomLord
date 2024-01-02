@@ -1,6 +1,8 @@
 # RansomLord Anti-Ransomware exploit tool.
 Proof-of-concept tool that automates the creation of PE files, used to exploit Ransomware pre-encryption. <br>
 
+Updated v2: https://github.com/malvuln/RansomLord/releases/tag/v2
+
 Lang: C
 
 SHA256: b0dfa2377d7100949de276660118bbf21fa4e56a4a196db15f5fb344a5da33ee
