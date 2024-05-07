@@ -4,7 +4,7 @@ Proof-of-concept tool that automates the creation of PE files, used to exploit R
 Updated v3: https://github.com/malvuln/RansomLord/releases/tag/v3
 
 Lang: C
-SHA256: 83f56d14671b912a9a68da2cd37607cac3e5b31560a6e30380e3c6bd093560f5
+SHA256: 810229C7E62D5EDDD3DA9FFA19D04A31D71F9C36D05B6A614FEF496E88656FF5
 
 Video PoC (old v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
