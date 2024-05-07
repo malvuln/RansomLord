@@ -1,18 +1,19 @@
 # RansomLord Anti-Ransomware exploit tool.
 Proof-of-concept tool that automates the creation of PE files, used to exploit Ransomware pre-encryption. <br>
 
-Updated v2: https://github.com/malvuln/RansomLord/releases/tag/v2
+Updated v3: https://github.com/malvuln/RansomLord/releases/tag/v3
 
 Lang: C
+SHA256: 83f56d14671b912a9a68da2cd37607cac3e5b31560a6e30380e3c6bd093560f5
 
-SHA256: b0dfa2377d7100949de276660118bbf21fa4e56a4a196db15f5fb344a5da33ee
-
-Video PoC: <br >
+Video PoC (old v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
 
 RansomLord generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br>
 
-Goal is to exploit vulnerabilities inherent in certain strains of Ransomware by deploying exploits that defend the network!<br>  
+Goal is to exploit vulnerabilities inherent in certain strains of Ransomware by deploying exploits that defend the network!<br> 
+The DLLs may also provide additonal coverage against generic and info stealer malwares.<br>
+RansomLord and its exported DLLs are NOT malicious see -s flag for security info.<br>
 
 [Malvuln history] <br>
  In May 2022, I publicly disclosed a novel strategy to successfully defeat Ransomware.
@@ -21,6 +22,11 @@ Goal is to exploit vulnerabilities inherent in certain strains of Ransomware by 
  Followed by Conti, REvil, BlackBasta and CryptoLocker proving many are vulnerable.
  RansomLord v1 intercepts and terminates malware tested from 33 different threat groups.
  Clop, Play, Royal, BlackCat (alphv), Yanluowang, DarkSide, Nokoyawa etc...
+
+[V3 update and features]
+RansomLord now intercepts and terminates ransomware tested from 49 different threat groups.<br>
+Adding StopCrypt, RisePro, RuRansom, MoneyMessage, CryptoFortress and Onyx to the victim list.<br>
+Windows event log feature -e flag will now log the SHA256 hash of the ransonmware.<br>
 
 [Generating exploits] <br>
  The -g flag lists Ransomware to exploit based on the selected Ransomware group.
@@ -55,7 +61,9 @@ Goal is to exploit vulnerabilities inherent in certain strains of Ransomware by 
  Using this program and or its DLL files, you accept all risk and the full disclaimer.
  By John Page (aka Malvuln) Copyright (c) 2023
  
-![ransomlord2](https://github.com/malvuln/RansomLord/assets/75002643/f82c790d-f540-455c-ac64-d91d3bb93919)
+ <br><br><br>
+ 
+![RansomLord_v3_Victims](https://github.com/malvuln/RansomLord/assets/75002643/30006d20-8dc4-45aa-ae52-7bacf38e9dde)
 
-![ransomlord](https://github.com/malvuln/RansomLord/assets/75002643/4d9ebabd-3bd0-454d-b9bf-00d075fe0ad9)
+
 
