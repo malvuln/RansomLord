@@ -26,7 +26,7 @@ RansomLord and its exported DLLs are NOT malicious see -s flag for security info
 [v3 update and features] <br>
 RansomLord now intercepts and terminates ransomware tested from 49 different threat groups. <br>
 Adding StopCrypt, RisePro, RuRansom, MoneyMessage, CryptoFortress and Onyx to the victim list.<br>
-Windows event log feature -e flag will now log the SHA256 hash of the ransonmware.<br>
+Windows event log feature -e flag will now log the SHA256 hash of the ransomware.<br>
 
 [Generating exploits] <br>
  The -g flag lists Ransomware to exploit based on the selected Ransomware group.
