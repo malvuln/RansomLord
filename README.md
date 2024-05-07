@@ -24,7 +24,8 @@ RansomLord and its exported DLLs are NOT malicious see -s flag for security info
  Clop, Play, Royal, BlackCat (alphv), Yanluowang, DarkSide, Nokoyawa etc...
 
 [V3 update and features]
-RansomLord now intercepts and terminates ransomware tested from 49 different threat groups. Adding StopCrypt, RisePro, RuRansom, MoneyMessage, CryptoFortress and Onyx to the victim list.<br>
+RansomLord now intercepts and terminates ransomware tested from 49 different threat groups. <br>
+Adding StopCrypt, RisePro, RuRansom, MoneyMessage, CryptoFortress and Onyx to the victim list.<br>
 Windows event log feature -e flag will now log the SHA256 hash of the ransonmware.<br>
 
 [Generating exploits] <br>
