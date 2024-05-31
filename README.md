@@ -1,10 +1,10 @@
 # RansomLord Anti-Ransomware exploit tool.
 Proof-of-concept tool that automates the creation of PE files, used to exploit ransomware pre-encryption. <br>
 
-Updated v3: https://github.com/malvuln/RansomLord/releases/tag/v3
+Updated v3.1: https://github.com/malvuln/RansomLord/releases/tag/v3
 
 Lang: C <br>
-SHA256: 810229C7E62D5EDDD3DA9FFA19D04A31D71F9C36D05B6A614FEF496E88656FF5
+SHA256: 647494bda466e645768d6f7d1cd051097aee319f88018d1a80547d8d538c98db
 
 Video PoC (old v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
@@ -23,10 +23,11 @@ RansomLord and its exported DLLs are NOT malicious see -s flag for security info
  RansomLord v1 intercepts and terminates malware tested from 33 different threat groups.
  Clop, Play, Royal, BlackCat (alphv), Yanluowang, DarkSide, Nokoyawa etc...
 
-[v3 update and features] <br>
+[v3.1 Update] <br>
 RansomLord now intercepts and terminates ransomware tested from 49 different threat groups. <br>
-Adding StopCrypt, RisePro, RuRansom, MoneyMessage, CryptoFortress and Onyx to the victim list.<br>
-Windows event log feature -e flag will now log the SHA256 hash of the ransomware.<br>
+Adding StopCrypt, RisePro, RuRansom, MoneyMessage, CryptoFortress and Onyx to the victim list. <br>
+Windows event log feature -e flag will attempt to log the SHA256 hash of the ransomware. <br>
+Added -r flag to output a Sigma rule for detecting RansomLord activity using Windows event log. <br>
 
 [Generating exploits] <br>
  The -g flag lists ransomware to exploit based on the selected ransomware group.
