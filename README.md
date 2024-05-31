@@ -68,7 +68,4 @@ References: <br>
 https://web.archive.org/web/20220601204439/https://www.bleepingcomputer.com/news/security/conti-revil-lockbit-ransomware-bugs-exploited-to-block-encryption/ <br><br>
 https://web.archive.org/web/20220504180432/https://www.securityweek.com/vulnerabilities-allow-hijacking-most-ransomware-prevent-file-encryption/ <br><br>
  
-![RansomLord_v3_Victims](https://github.com/malvuln/RansomLord/assets/75002643/30006d20-8dc4-45aa-ae52-7bacf38e9dde)
-
-
-
+![RansomLord_v3_Victims](https://github.com/malvuln/RansomLord/assets/75002643/7e3584a7-bb4d-4d77-8c87-a1a2f84f5726)
