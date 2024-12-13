@@ -80,4 +80,12 @@ RansomLord and its exported DLLs are NOT malicious see -s flag for security info
 References: <br>
 https://web.archive.org/web/20220601204439/https://www.bleepingcomputer.com/news/security/conti-revil-lockbit-ransomware-bugs-exploited-to-block-encryption/ <br><br>
 https://web.archive.org/web/20220504180432/https://www.securityweek.com/vulnerabilities-allow-hijacking-most-ransomware-prevent-file-encryption/ <br><br>
+
+![RansomLordNG_1](https://github.com/user-attachments/assets/461d276f-cd42-4d2d-9643-bb3c8647e404)
+![RansomLordNG_2](https://github.com/user-attachments/assets/4da0ec42-f98b-4481-ab86-e168e99e2954)
+![RansomLordNG_victims](https://github.com/user-attachments/assets/e6921140-a834-4e28-9770-6ffb134345e6)
+
+
+
+
  
