@@ -9,7 +9,7 @@ SHA256: fcb259471a4a7afa938e3aa119bdff25620ae83f128c8c7d39266f410a7ec9aa
 Video PoC (old v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
 
-RansomLordNG generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br>
+RansomLordNG generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br><br>
 NG version exploit DLL MD5: <br>
 x32: 36bf065dd7ada7b51c0a4a590f515d27 <br>
 x64: b2cd933fe13e39ed2b3990c1ce675ea7 <br>
