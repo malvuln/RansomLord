@@ -14,9 +14,9 @@ Goal is to exploit vulnerabilities inherent in certain strains of ransomware by 
 The DLLs may also provide additonal coverage against generic and info stealer malwares.<br>
 RansomLord and its exported DLLs are NOT malicious see -s flag for security info.<br>
 
-Exploit DLL MD5: <br>
-36bf065dd7ada7b51c0a4a590f515d27  (x32) <br>
-b2cd933fe13e39ed2b3990c1ce675ea7  (x64) <br>
+Exploit x32/x64 DLL MD5: <br>
+36bf065dd7ada7b51c0a4a590f515d27 <br>
+b2cd933fe13e39ed2b3990c1ce675ea7 <br>
 
 [Malvuln history] <br>
   May of 2022, I publicly disclosed a novel strategy to successfully defeat ransomware
