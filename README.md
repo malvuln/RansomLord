@@ -6,11 +6,14 @@ Updated version NG: https://github.com/malvuln/RansomLord/releases/tag/NG
 Lang: C <br>
 SHA256: ACB0C4EEAB421761B6C6E70B0FA1D20CE08247525641A7CD03B33A6EE3D35D8A
 
-New Video PoC (NG v1.0) 2025:
+Deweaponize feature PoC video (NG v1.0) 2025:
 https://www.youtube.com/watch?v=w5TKNvnE0_g
 
 Video PoC (old v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
+
+[NG version 1.0]
+First official NG versioned release with significant updates, fixes and new features <br>
 
 RansomLordNG generated PE files are saved to disk in the x32 or x64 directorys where the program is run from. <br>
 Goal is to exploit vulnerabilities inherent in certain strains of ransomware by deploying exploits to defend the network!<br> <br>
@@ -26,9 +29,6 @@ Exploit x32/x64 DLL MD5: <br>
   Using a well known attacker technique (DLL Hijack) to terminate Malware pre-encryption
   The first Malware to be successfully exploited was from Lockbit group MVID-2022-0572
   Followed by Conti, REvil, BlackBasta and CryptoLocker proving many are vulnerable <br>
-
-[NG version 1.0]
-First official NG versioned release with significant updates, fixes and new features <br>
 
 [The Pwned]
 RansomLordNG v1.0 DLLs intercept and terminate ransomware from sixty-one threat groups 
