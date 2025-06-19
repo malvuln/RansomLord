@@ -9,7 +9,7 @@ SHA256: ACB0C4EEAB421761B6C6E70B0FA1D20CE08247525641A7CD03B33A6EE3D35D8A
 Deweaponize feature PoC video (NG v1.0) 2025: <br>
 https://www.youtube.com/watch?v=w5TKNvnE0_g
 
-Video PoC (old v2): <br >
+Video PoC (old but gold v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
 
 [NG version 1.0]
