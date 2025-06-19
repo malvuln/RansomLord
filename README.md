@@ -1,10 +1,13 @@
-# RansomLord (NG) Anti-Ransomware exploit tool.
+# RansomLord (NG) v1.0 Anti-Ransomware exploit tool.
 Proof-of-concept tool that automates the creation of PE files, used to exploit ransomware pre-encryption. <br>
 
 Updated version NG: https://github.com/malvuln/RansomLord/releases/tag/NG
 
 Lang: C <br>
-SHA256: fcb259471a4a7afa938e3aa119bdff25620ae83f128c8c7d39266f410a7ec9aa
+SHA256: ACB0C4EEAB421761B6C6E70B0FA1D20CE08247525641A7CD03B33A6EE3D35D8A
+
+New Video PoC (NG v1.0) 2025:
+https://www.youtube.com/watch?v=w5TKNvnE0_g
 
 Video PoC (old v2): <br >
 https://www.youtube.com/watch?v=_Ho0bpeJWqI
@@ -15,20 +18,62 @@ The DLLs may also provide additonal coverage against generic and info stealer ma
 RansomLord and its exported DLLs are NOT malicious see -s flag for security info.<br>
 
 Exploit x32/x64 DLL MD5: <br>
-36bf065dd7ada7b51c0a4a590f515d27 <br>
-b2cd933fe13e39ed2b3990c1ce675ea7 <br>
+61126F5D55BA58398C317814389CF05C <br>
+3CB517B752D6668FDC06BE8F1664378A <br>
 
 [Malvuln history] <br>
   May of 2022, I publicly disclosed a novel strategy to successfully defeat ransomware
   Using a well known attacker technique (DLL Hijack) to terminate Malware pre-encryption
   The first Malware to be successfully exploited was from Lockbit group MVID-2022-0572
-  Followed by Conti, REvil, BlackBasta and CryptoLocker proving many are vulnerable
+  Followed by Conti, REvil, BlackBasta and CryptoLocker proving many are vulnerable <br>
+
+[NG version 1.0]
+First official NG versioned release with significant updates, fixes and new features <br>
+
+[The Pwned]
+RansomLordNG v1.0 DLLs intercept and terminate ransomware from sixty-one threat groups <br>
+Adding VanHelsing, Pe32Ransom, Makop, Superblack, Mamona, Lynx and Fog to the victim list <br>
+Note: if you plan on testing Fog ransomware, you will have to bypass many malware anti-analysis <br>
+and debugging techniques. Failure to do that will result in 'Sandbox detected! Exiting process...' <br>
+
+[deweaponize]
+deweaponize feature (experimental/optional) attempts to render a malware inoperable <br>
+This experimental option potentially works for malware ran with high integrity (Admin) <br>
+Goal is to reduce the risk of subsequent malware execution post exploitation by accident <br>
+or from improper malware handling during DFIR or other security response operations <br>
+
+This feature is experimental and there is NO gurantee it will work. However, it has shown <br>
+capability and high success rate when tested in a virtual machine environment <br>
+
+When deweaponize is enabled an exploit DLL will attempt the following actions: <br>
+  1) copy the intercepted malware and rename it to a .bin file extension <br>
+  2) delete the weaponized malware containing the .exe (weaponized) file extension <br>
+Warn: some malware may drop additional malicious files to other directories, the feature <br>
+does not account for that scenario and takes no attempted actions on such files <br>
+There is always risk of false positives and non-malicious programs may be renamed and or deleted <br>
+Therefore, use at own risk and enabling event logging with (-e) is suggested if using deweaponize <br>
+
+deweaponize DISCLAIMER: <br>
+By enabling deweaponize you agree and accept ALL legal liability, damages and associated risks <br> 
+Accept all responsibility, consequences and acknowlege it is experimental and without guarantees <br> 
+Moreover, you agree to allow RansomLordNG generated DLLs to COPY intercepted malware to disk, <br>
+on the affected machine with the intention, to disable the malware by file extension renaming <br>
+You also accept that an intercepted file containing a .exe file extension may be deleted <br>
+You accept the risk and understand false positives can occur, potentially renaming or deleting <br>
+a legitimate software file due to failure, possible error and or other unforeseen conditions <br>
+Therefore, continue and use the deweponize feature only if you accept this risk. <br>
+
+[SHA256 improved]
+NG v1.0 release also contains a more reliable, stable SHA256 hash generation for event logging 
+In prior versions, hashing was done by creating a new process in memory that used native Windows 
+certutil.exe to try an calculate a malwares SHA256 hash, this worked intermittently at best 
+Now malware is hashed more reliably in C code, using the public informational standard RFC4634 
 
 [NG Version] <br>
-  Next gen version dumps process memory of the targeted Malware prior to termination <br>
-  The process memory dump file MalDump.dmp varies in size and can be 50 MB plus <br>
-  RansomLord now intercepts and terminates ransomware from 54 different threat groups <br>
-  Adding GPCode, DarkRace, Snocry, Hydra and Sage to the ever growing victim list <br>
+  Next gen version dumps process memory of the targeted Malware prior to termination 
+  The process memory dump file MalDump.dmp varies in size and can be 50 MB plus 
+  RansomLord now intercepts and terminates ransomware from 54 different threat groups 
+  Adding GPCode, DarkRace, Snocry, Hydra and Sage to the ever growing victim list 
 
 [DLL Exploit Generation] <br>
   The -g flag lists ransomware to exploit based on the selected ransomware group
@@ -42,6 +87,8 @@ b2cd933fe13e39ed2b3990c1ce675ea7 <br>
 [MalDump] <br>
   The -d flag creates a custom Windows registry key, that exploit DLLs will check
   to perform a process memory dump of Malware based on whether enabled=1 or disabled=0
+  This may work when malware is executed with high integrity (Admin).
+  Process memory dumps are saved to C:\Users\Public\MalDump.dmp when successful.
   Leveraging code execution vulnerabilities to dump cleartext strings etc from process
   memory to disk, may be useful as we may avoid PE unpacking, anti-debugging techniques
   or relying on fully executing the Malware
@@ -49,8 +96,9 @@ b2cd933fe13e39ed2b3990c1ce675ea7 <br>
 [Event Log IOC] <br>
   The -e flag sets up a custom Windows Event source in the Windows registry
   Events are written to 'Windows Logs\Application' as 'RansomLord' event ID 1
-  Malware name, SHA256 hash and process path are included in the general information
-  Due to potential errors, at times only the Malware path and name may get recorded
+  malware name, SHA256 hash and process path are included in the general information
+  Additional logging now includes the DLL name that intercepted the malware. In addition
+  if deweaponize and or MalDump is enabled they are also logged to the general information
 
 [Sigma Rule Detection] <br>
   The -r flag saves the required Sigma rule RansomLord_Sigma.txt to disk
