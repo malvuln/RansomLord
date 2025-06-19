@@ -31,36 +31,36 @@ Exploit x32/x64 DLL MD5: <br>
 First official NG versioned release with significant updates, fixes and new features <br>
 
 [The Pwned]
-RansomLordNG v1.0 DLLs intercept and terminate ransomware from sixty-one threat groups <br>
-Adding VanHelsing, Pe32Ransom, Makop, Superblack, Mamona, Lynx and Fog to the victim list <br>
-Note: if you plan on testing Fog ransomware, you will have to bypass many malware anti-analysis <br>
+RansomLordNG v1.0 DLLs intercept and terminate ransomware from sixty-one threat groups 
+Adding VanHelsing, Pe32Ransom, Makop, Superblack, Mamona, Lynx and Fog to the victim list 
+Note: if you plan on testing Fog ransomware, you will have to bypass many malware anti-analysis 
 and debugging techniques. Failure to do that will result in 'Sandbox detected! Exiting process...' <br>
 
 [deweaponize]
-deweaponize feature (experimental/optional) attempts to render a malware inoperable <br>
-This experimental option potentially works for malware ran with high integrity (Admin) <br>
-Goal is to reduce the risk of subsequent malware execution post exploitation by accident <br>
-or from improper malware handling during DFIR or other security response operations <br>
+deweaponize feature (experimental/optional) attempts to render a malware inoperable 
+This experimental option potentially works for malware ran with high integrity (Admin) 
+Goal is to reduce the risk of subsequent malware execution post exploitation by accident 
+or from improper malware handling during DFIR or other security response operations 
 
-This feature is experimental and there is NO gurantee it will work. However, it has shown <br>
+This feature is experimental and there is NO gurantee it will work. However, it has shown 
 capability and high success rate when tested in a virtual machine environment <br>
 
-When deweaponize is enabled an exploit DLL will attempt the following actions: <br>
-  1) copy the intercepted malware and rename it to a .bin file extension <br>
-  2) delete the weaponized malware containing the .exe (weaponized) file extension <br>
-Warn: some malware may drop additional malicious files to other directories, the feature <br>
-does not account for that scenario and takes no attempted actions on such files <br>
-There is always risk of false positives and non-malicious programs may be renamed and or deleted <br>
-Therefore, use at own risk and enabling event logging with (-e) is suggested if using deweaponize <br>
+When deweaponize is enabled an exploit DLL will attempt the following actions: 
+  1) copy the intercepted malware and rename it to a .bin file extension 
+  2) delete the weaponized malware containing the .exe (weaponized) file extension 
+Warn: some malware may drop additional malicious files to other directories, the feature 
+does not account for that scenario and takes no attempted actions on such files 
+There is always risk of false positives and non-malicious programs may be renamed and or deleted 
+Therefore, use at own risk and enabling event logging with (-e) is suggested if using deweaponize 
 
 deweaponize DISCLAIMER: <br>
-By enabling deweaponize you agree and accept ALL legal liability, damages and associated risks <br> 
-Accept all responsibility, consequences and acknowlege it is experimental and without guarantees <br> 
-Moreover, you agree to allow RansomLordNG generated DLLs to COPY intercepted malware to disk, <br>
-on the affected machine with the intention, to disable the malware by file extension renaming <br>
-You also accept that an intercepted file containing a .exe file extension may be deleted <br>
-You accept the risk and understand false positives can occur, potentially renaming or deleting <br>
-a legitimate software file due to failure, possible error and or other unforeseen conditions <br>
+By enabling deweaponize you agree and accept ALL legal liability, damages and associated risks 
+Accept all responsibility, consequences and acknowlege it is experimental and without guarantees 
+Moreover, you agree to allow RansomLordNG generated DLLs to COPY intercepted malware to disk, 
+on the affected machine with the intention, to disable the malware by file extension renaming 
+You also accept that an intercepted file containing a .exe file extension may be deleted 
+You accept the risk and understand false positives can occur, potentially renaming or deleting 
+a legitimate software file due to failure, possible error and or other unforeseen conditions 
 Therefore, continue and use the deweponize feature only if you accept this risk. <br>
 
 [SHA256 improved]
@@ -132,10 +132,7 @@ References: <br>
 https://web.archive.org/web/20220601204439/https://www.bleepingcomputer.com/news/security/conti-revil-lockbit-ransomware-bugs-exploited-to-block-encryption/ <br><br>
 https://web.archive.org/web/20220504180432/https://www.securityweek.com/vulnerabilities-allow-hijacking-most-ransomware-prevent-file-encryption/ <br><br>
 
-![RansomLordNG_1](https://github.com/user-attachments/assets/461d276f-cd42-4d2d-9643-bb3c8647e404)
-![RansomLordNG_2](https://github.com/user-attachments/assets/4da0ec42-f98b-4481-ab86-e168e99e2954)
-![RansomLordNG_victims](https://github.com/user-attachments/assets/e6921140-a834-4e28-9770-6ffb134345e6)
-
+![RansomLordNG-v1 0](https://github.com/user-attachments/assets/af76c0ba-8a46-4929-aa90-19bf11ad5671)
 
 
 
