@@ -32,7 +32,7 @@ Exploit x32/x64 DLL MD5: <br>
 
 [The Pwned] <br>
 RansomLordNG v1.0 DLLs intercept and terminate ransomware from sixty-one threat groups 
-Adding VanHelsing, Pe32Ransom, Makop, Superblack, Mamona, Lynx and Fog to the victim list <br>
+Adding VanHelsing, Pe32Ransom, Makop, Superblack, Mamona, Lynx and Fog to the victim list <br><br>
 Note: if you plan on testing Fog ransomware, you will have to bypass many malware anti-analysis 
 and debugging techniques. Failure to do that will result in 'Sandbox detected! Exiting process...' <br>
 
