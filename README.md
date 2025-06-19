@@ -1,4 +1,4 @@
-d# RansomLord (NG) v1.0 Anti-Ransomware exploit tool.
+## RansomLord (NG) v1.0 Anti-Ransomware exploit tool.
 Proof-of-concept tool that automates the creation of PE files, used to exploit ransomware pre-encryption. <br>
 
 Updated version NG: https://github.com/malvuln/RansomLord/releases/tag/v1.0
