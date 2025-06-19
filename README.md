@@ -30,13 +30,13 @@ Exploit x32/x64 DLL MD5: <br>
   The first Malware to be successfully exploited was from Lockbit group MVID-2022-0572
   Followed by Conti, REvil, BlackBasta and CryptoLocker proving many are vulnerable <br>
 
-[The Pwned]
+[The Pwned] <br>
 RansomLordNG v1.0 DLLs intercept and terminate ransomware from sixty-one threat groups 
 Adding VanHelsing, Pe32Ransom, Makop, Superblack, Mamona, Lynx and Fog to the victim list 
 Note: if you plan on testing Fog ransomware, you will have to bypass many malware anti-analysis 
 and debugging techniques. Failure to do that will result in 'Sandbox detected! Exiting process...' <br>
 
-[deweaponize]
+[deweaponize] <br>
 deweaponize feature (experimental/optional) attempts to render a malware inoperable 
 This experimental option potentially works for malware ran with high integrity (Admin) 
 Goal is to reduce the risk of subsequent malware execution post exploitation by accident 
@@ -63,7 +63,7 @@ You accept the risk and understand false positives can occur, potentially renami
 a legitimate software file due to failure, possible error and or other unforeseen conditions 
 Therefore, continue and use the deweponize feature only if you accept this risk. <br>
 
-[SHA256 improved]
+[SHA256 improved] <br>
 NG v1.0 release also contains a more reliable, stable SHA256 hash generation for event logging 
 In prior versions, hashing was done by creating a new process in memory that used native Windows 
 certutil.exe to try an calculate a malwares SHA256 hash, this worked intermittently at best 
