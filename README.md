@@ -134,6 +134,70 @@ https://web.archive.org/web/20220504180432/https://www.securityweek.com/vulnerab
 
 ![RansomLordNG-v1 0](https://github.com/user-attachments/assets/af76c0ba-8a46-4929-aa90-19bf11ad5671)
 
+[ Current ransomware Pwned list ]
+================
+[0] Lockbit
+[1] Yanluowang
+[2] Conti
+[3] REvil
+[4] BlackMatter
+[5] WannaCry
+[6] LokiLocker
+[7] Ryuk.A
+[8] Hive v5.1
+[9] BlueSky
+[10] Haron
+[11] Thanos
+[12] AvosLocker
+[13] AtomSilo
+[14] Cryakl
+[15] Meow
+[16] BabukLocker
+[17] Darkside
+[18] CTBLocker
+[19] Cerber
+[20] Cryptowall
+[21] Alphaware
+[22] Clop
+[23] Play
+[24] Nokoyawa
+[25] BlackCat(ALPHV)
+[26] Royal
+[27] Chaos
+[28] Crytox
+[29] LockerGoga
+[30] Rook
+[31] HelloKitty
+[32] Curator
+[33] Wagner
+[34] BlackSnake
+[35] DarkBit
+[36] DoubleZero
+[37] HakBit
+[38] Jaff
+[39] Paradise
+[40] Vohuk
+[41] Medusa
+[42] Phobus
+[43] StopCrypt
+[44] RuRansom
+[45] RisePro
+[46] MoneyMessage
+[47] CryptoFortress
+[48] Onyx
+[49] GPCode
+[50] DarkRace
+[51] Snocry
+[52] Sage
+[53] HydraCrypt
+[54] VanHelsing
+[55] Pe32Ransom
+[56] Superblack
+[57] Mamona
+[58] Lynx
+[59] Makop
+[60] Fog
+
 
 
  
