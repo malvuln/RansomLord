@@ -134,7 +134,7 @@ https://web.archive.org/web/20220504180432/https://www.securityweek.com/vulnerab
 
 ![RansomLordNG-v1 0](https://github.com/user-attachments/assets/af76c0ba-8a46-4929-aa90-19bf11ad5671)
 
-#### [ Currently defeats the following ransomware ] <br>
+## [ Currently defeats the following ransomware ] <br>
 [0] Lockbit
 [1] Yanluowang
 [2] Conti
